@@ -16,7 +16,7 @@ import React from "react";
  * Need an image? Check out https://unsplash.com to download a image you
  * freely use on your site.
  */
-import image from "../images/motion-background.jpg";
+import image from "../images/daniel-josef-AMssSjUaTY4-unsplash.jpg";
 
 const imageAltText = "purple and blue abstract background";
 
@@ -24,19 +24,27 @@ const imageAltText = "purple and blue abstract background";
  * Sort description that expands on your title on the Home component.
  */
 const description =
-  "I'm a UI/UX student studying at Barnett Technical University. I enjoy creating unique and simplistic user interfaces in creative ways.";
+  "I am a Full stack developer who specialized in MERN stack development, every time I do some thing that let me lead to learn more more, i am thirsty for more knowlwge, if i have some oppurtunity, I'll prove my worth.";
 
 /**
  * List of some of skills or technologies you work on, are learning,
  * passionate about, or enjoy,
  */
 const skillsList = [
-  "Web design",
-  "User experience",
-  "Inclusive design",
-  "Focus group testing",
-  "Mobile user interfaces",
-  "Graphic design",
+  "Web Development",
+  "Frontend Development",
+  "Backend Development",
+  "Full Stack Development",
+  "MERN Stack Development",
+  "User Interface Design",
+  "Responsive Web Design",
+  "Representational State Transfer (REST)",
+  "API Integration",
+  "Database Management",
+  "GraphQL",
+  "Containerization",
+  "Version Control",
+  "Serverless Architecture",  
 ];
 
 /**
@@ -45,7 +53,7 @@ const skillsList = [
  * about you on a professional level.
  */
 const detailOrQuote =
-  "I am passionate about solving problems in new creative ways to drive innovation. By leveraging my UI/UX experience I continually look for new and better ways to make tech accessible by all.";
+  "I am passionate about solving problems that are in the way of my development. I am passionate about the things i love the most, so I will keep progrssing more and more in the feuture.";
 
 const About = () => {
   return (
