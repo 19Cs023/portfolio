@@ -24,7 +24,7 @@ const imageAltText = "purple and blue abstract background";
  * Sort description that expands on your title on the Home component.
  */
 const description =
-  "I am a Full stack developer who specialized in MERN stack development, every time I do some thing that let me lead to learn more more, i am thirsty for more knowlwge, if i have some oppurtunity, I'll prove my worth.";
+  "I am a passionate Full Stack Developer specializing in the MERN stack (MongoDB, Express.js, React, and Node.js). I thrive on building scalable, user-friendly web applications and am constantly eager to learn and adopt new technologies to solve complex problems.";
 
 /**
  * List of some of skills or technologies you work on, are learning,
@@ -44,7 +44,9 @@ const skillsList = [
   "GraphQL",
   "Containerization",
   "Version Control",
-  "Serverless Architecture",  
+  "Serverless Architecture",
+  "Ai/ML Integration",
+  "testing and debugging",
 ];
 
 /**

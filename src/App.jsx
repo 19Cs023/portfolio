@@ -27,12 +27,11 @@ const siteProps = {
   name: "Dhanush M",
   title: "Full Stack Developer",
   email: "dhanush11004@gmail.com",
-  gitHub: "https://github.com/19Cs023",
-  instagram: "microsoft",
-  linkedIn: "https://www.linkedin.com/in/dhanush-m-6870a22a2",
-  medium: "microsoft",
-  twitter: "microsoft",
-  youTube: "Code",
+  gitHub: "19Cs023",
+  linkedIn: "dhanush-m-6870a22a2",
+  youTube: "crazy code challenge",
+  devDotTo: "dhanush_m_9243ed694144b3d",
+  leetcode: "https://leetcode.com/u/ZjxQOcW9gx/",
 };
 
 const primaryColor = "#4E567E";
