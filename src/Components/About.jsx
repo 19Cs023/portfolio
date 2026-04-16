@@ -63,8 +63,12 @@ const About = () => {
       <img className="background" src={image} alt={imageAltText} />
       <div
         style={{
-          backgroundColor: "white",
-          width: "50%",
+          backgroundColor: "rgba(255, 255, 255, 0.9)",
+          backdropFilter: "blur(10px)",
+          borderRadius: "20px",
+          boxShadow: "0 20px 25px -5px rgba(0, 0, 0, 0.1), 0 10px 10px -5px rgba(0, 0, 0, 0.04)",
+          width: "90%",
+          maxWidth: "800px",
           padding: "4rem",
           margin: "3rem auto",
           textAlign: "center",
@@ -76,10 +80,11 @@ const About = () => {
         <ul
           style={{
             textAlign: "left",
-            columns: 2,
-            fontSize: "1.25rem",
-            margin: "2rem 3rem",
-            gap: "3rem",
+            columns: "auto 300px",
+            fontSize: "1.15rem",
+            margin: "2rem auto",
+            gap: "2rem",
+            maxWidth: "600px",
           }}
         >
           {skillsList.map((skill) => (

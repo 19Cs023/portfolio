@@ -50,6 +50,7 @@ const Footer = (props) => {
       }}
     >
       <div
+        className="footer-socials"
         style={{
           display: "flex",
           justifyContent: "center",
