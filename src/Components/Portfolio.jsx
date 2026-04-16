@@ -49,41 +49,41 @@ const projectList = [
     url: "https://19cs023.github.io/portfolio/",
   },
   {
-    title:"expense tracker app with MERN stack 🚀",
+    title: "expense tracker app with MERN stack 🚀",
     description:
       "this app for the people that they want to track their expenses. In this app you can add your expenses and see your expenses in a chart.",
     url: "https://github.com/19Cs023/expense-tracker",
   },
   {
-    title:"blog app with MERN stack 🚀",
+    title: "blog app with MERN stack 🚀",
     description:
       "this app for the people that they want to write their blogs. In this app you can write your blogs and see your blogs in a list.",
     url: "https://github.com/19Cs023/tech-blogs",
   },
   {
-    title:"todo app with MERN stack 🚀",
+    title: "todo app with MERN stack 🚀",
     description:
       "this app for the people that they want to manage their tasks. In this app you can add your tasks and see your tasks in a list.",
     url: "https://github.com/19Cs023/todo-app",
   },
   {
-    title:"AI Summerizer MERN stack 🚀",
+    title: "AI Summerizer MERN stack 🚀",
     description:
       "this app for the people that they want to summerize their texts. In this app you can add your texts and see your summerized texts in a list.",
     url: "https://github.com/19Cs023/summeriser-app",
   },
   {
-    title:"food delivery app with MERN stack 🚀",
+    title: "food delivery app with MERN stack 🚀",
     description:
       "this app for the people that they want to order food from their favorite restaurants. In this app you can browse restaurants, order food, and track your order.",
     url: "https://github.com/19Cs023/food-delivery",
   },
   {
-    title:"skeleton code for MERN stack 🚀",
+    title: "skeleton code for MERN stack 🚀",
     description:
       "this is a skeleton code for the MERN stack. It includes the basic structure for a MERN application.",
     url: "https://github.com/19Cs023/mern-skeliton",
-  }
+  },
 ];
 
 const Portfolio = () => {
