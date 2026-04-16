@@ -164,4 +164,145 @@ img.socialIcon:hover {
   transform: scale(1.2);
 }
 
+@media (max-width: 900px) {
+  section.padding {
+    padding: 4rem 0;
+  }
+
+  h1 {
+    font-size: clamp(2.75rem, 14vw, 4.5rem);
+  }
+
+  h2 {
+    padding-top: 1rem;
+    font-size: 2rem;
+  }
+
+  p.large {
+    font-size: 1.1rem;
+  }
+
+  .site-header {
+    flex-wrap: wrap;
+    gap: .5rem;
+    padding: .75rem .5rem !important;
+  }
+
+  .site-header a {
+    padding: .45rem .75rem;
+    font-size: .95rem;
+  }
+
+  #home > div:first-of-type {
+    max-width: 20rem;
+    width: calc(100% - 2rem) !important;
+    top: 4.5rem !important;
+    left: 1rem !important;
+  }
+
+  #home > div:first-of-type h2 {
+    font-size: 1.2rem;
+  }
+
+  #home > div:last-of-type {
+    transform: translateX(-50%);
+    bottom: 1.5rem !important;
+    left: 50% !important;
+  }
+
+  #home > div:last-of-type img {
+    height: 2.5rem !important;
+    width: 2.5rem !important;
+  }
+
+  #about > div {
+    width: calc(100% - 2rem) !important;
+    margin: 2rem auto !important;
+    padding: 2rem 1.25rem !important;
+  }
+
+  #about ul {
+    padding-left: 1.25rem;
+    columns: 1 !important;
+    margin: 1.5rem 1rem !important;
+  }
+
+  #about p:last-of-type {
+    padding: .5rem 0 0 !important;
+  }
+
+  #portfolio > div {
+    flex-direction: column !important;
+    gap: 1.5rem !important;
+    padding-top: 1.5rem !important;
+  }
+
+  #portfolio > div > div:first-child {
+    padding: 0 1rem !important;
+  }
+
+  .container {
+    grid-template-columns: 1fr !important;
+    margin: 0 auto !important;
+    padding-right: 0 !important;
+  }
+
+  .container .box {
+    padding: 24px 18px;
+  }
+
+  #footer {
+    padding: 4rem 1rem 2.5rem !important;
+  }
+
+  .footer-socials {
+    flex-wrap: wrap;
+    gap: 1.25rem !important;
+  }
+}
+
+@media (max-width: 520px) {
+  section.padding {
+    padding: 3rem 0;
+  }
+
+  h1 {
+    font-size: clamp(2.4rem, 16vw, 3.5rem);
+  }
+
+  h2 {
+    font-size: 1.7rem;
+  }
+
+  p, p.large {
+    font-size: 1rem;
+  }
+
+  .site-header {
+    justify-content: space-between;
+  }
+
+  .site-header a {
+    text-align: center;
+    flex: calc(50% - .5rem);
+  }
+
+  #home > div:first-of-type {
+    max-width: 18rem;
+  }
+
+  #about > div {
+    border-radius: 16px;
+  }
+
+  .container .box {
+    padding: 20px 16px;
+  }
+
+  img.socialIcon {
+    height: 28px;
+    width: 28px;
+  }
+}
+
 /*# sourceMappingURL=index.4d663569.css.map */

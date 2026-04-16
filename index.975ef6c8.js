@@ -27555,6 +27555,7 @@ var _leetcodeWebpDefault = parcelHelpers.interopDefault(_leetcodeWebp);
         },
         children: [
             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                className: "footer-socials",
                 style: {
                     display: "flex",
                     justifyContent: "center",
@@ -27569,12 +27570,12 @@ var _leetcodeWebpDefault = parcelHelpers.interopDefault(_leetcodeWebp);
                             className: "socialIcon"
                         }, void 0, false, {
                             fileName: "src/Components/Footer.jsx",
-                            lineNumber: 61,
+                            lineNumber: 62,
                             columnNumber: 13
                         }, undefined)
                     }, void 0, false, {
                         fileName: "src/Components/Footer.jsx",
-                        lineNumber: 60,
+                        lineNumber: 61,
                         columnNumber: 11
                     }, undefined),
                     devDotTo && /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("a", {
@@ -27587,12 +27588,12 @@ var _leetcodeWebpDefault = parcelHelpers.interopDefault(_leetcodeWebp);
                             className: "socialIcon"
                         }, void 0, false, {
                             fileName: "src/Components/Footer.jsx",
-                            lineNumber: 66,
+                            lineNumber: 67,
                             columnNumber: 13
                         }, undefined)
                     }, void 0, false, {
                         fileName: "src/Components/Footer.jsx",
-                        lineNumber: 65,
+                        lineNumber: 66,
                         columnNumber: 11
                     }, undefined),
                     gitHub && /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("a", {
@@ -27605,12 +27606,12 @@ var _leetcodeWebpDefault = parcelHelpers.interopDefault(_leetcodeWebp);
                             className: "socialIcon"
                         }, void 0, false, {
                             fileName: "src/Components/Footer.jsx",
-                            lineNumber: 71,
+                            lineNumber: 72,
                             columnNumber: 13
                         }, undefined)
                     }, void 0, false, {
                         fileName: "src/Components/Footer.jsx",
-                        lineNumber: 70,
+                        lineNumber: 71,
                         columnNumber: 11
                     }, undefined),
                     leetcode && /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("a", {
@@ -27623,12 +27624,12 @@ var _leetcodeWebpDefault = parcelHelpers.interopDefault(_leetcodeWebp);
                             className: "socialIcon"
                         }, void 0, false, {
                             fileName: "src/Components/Footer.jsx",
-                            lineNumber: 76,
+                            lineNumber: 77,
                             columnNumber: 13
                         }, undefined)
                     }, void 0, false, {
                         fileName: "src/Components/Footer.jsx",
-                        lineNumber: 75,
+                        lineNumber: 76,
                         columnNumber: 11
                     }, undefined),
                     linkedIn && /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("a", {
@@ -27641,12 +27642,12 @@ var _leetcodeWebpDefault = parcelHelpers.interopDefault(_leetcodeWebp);
                             className: "socialIcon"
                         }, void 0, false, {
                             fileName: "src/Components/Footer.jsx",
-                            lineNumber: 85,
+                            lineNumber: 86,
                             columnNumber: 13
                         }, undefined)
                     }, void 0, false, {
                         fileName: "src/Components/Footer.jsx",
-                        lineNumber: 80,
+                        lineNumber: 81,
                         columnNumber: 11
                     }, undefined),
                     youTube && /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("a", {
@@ -27659,12 +27660,12 @@ var _leetcodeWebpDefault = parcelHelpers.interopDefault(_leetcodeWebp);
                             className: "socialIcon"
                         }, void 0, false, {
                             fileName: "src/Components/Footer.jsx",
-                            lineNumber: 94,
+                            lineNumber: 95,
                             columnNumber: 13
                         }, undefined)
                     }, void 0, false, {
                         fileName: "src/Components/Footer.jsx",
-                        lineNumber: 89,
+                        lineNumber: 90,
                         columnNumber: 11
                     }, undefined)
                 ]
@@ -27685,7 +27686,7 @@ var _leetcodeWebpDefault = parcelHelpers.interopDefault(_leetcodeWebp);
                 ]
             }, void 0, true, {
                 fileName: "src/Components/Footer.jsx",
-                lineNumber: 98,
+                lineNumber: 99,
                 columnNumber: 7
             }, undefined)
         ]
@@ -27718,7 +27719,7 @@ $RefreshReg$(_c, "Footer");
   window.$RefreshReg$ = prevRefreshReg;
   window.$RefreshSig$ = prevRefreshSig;
 }
-},{"react/jsx-dev-runtime":"iTorj","react":"21dqq","prop-types":"7wKI2","../images/socials/devdotto.svg":"69cpV","../images/socials/envelope.svg":"92UhI","../images/socials/github.svg":"vP2m6","../images/socials/linkedin.svg":"5XSmz","../images/socials/youtube.svg":"hmN7D","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru","../images/socials/leetcode.webp":"UAjPt"}],"7wKI2":[function(require,module,exports) {
+},{"react/jsx-dev-runtime":"iTorj","react":"21dqq","prop-types":"7wKI2","../images/socials/devdotto.svg":"69cpV","../images/socials/envelope.svg":"92UhI","../images/socials/github.svg":"vP2m6","../images/socials/linkedin.svg":"5XSmz","../images/socials/youtube.svg":"hmN7D","../images/socials/leetcode.webp":"UAjPt","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru"}],"7wKI2":[function(require,module,exports) {
 var ReactIs = require("react-is");
 // By explicitly using `prop-types` you are opting into new development behavior.
 // http://fb.me/prop-types-in-prod
@@ -28496,6 +28497,7 @@ var _jsxDevRuntime = require("react/jsx-dev-runtime");
 var _reactDefault = parcelHelpers.interopDefault(_react);
 const Header = ()=>{
     return /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+        className: "site-header",
         style: {
             position: "fixed",
             display: "flex",
@@ -28529,7 +28531,7 @@ const Header = ()=>{
       `
             }, void 0, false, {
                 fileName: "src/Components/Header.jsx",
-                lineNumber: 27,
+                lineNumber: 28,
                 columnNumber: 7
             }, undefined),
             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("a", {
@@ -28537,7 +28539,7 @@ const Header = ()=>{
                 children: "Home"
             }, void 0, false, {
                 fileName: "src/Components/Header.jsx",
-                lineNumber: 44,
+                lineNumber: 45,
                 columnNumber: 7
             }, undefined),
             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("a", {
@@ -28545,7 +28547,7 @@ const Header = ()=>{
                 children: "About"
             }, void 0, false, {
                 fileName: "src/Components/Header.jsx",
-                lineNumber: 45,
+                lineNumber: 46,
                 columnNumber: 7
             }, undefined),
             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("a", {
@@ -28553,7 +28555,7 @@ const Header = ()=>{
                 children: "Portfolio"
             }, void 0, false, {
                 fileName: "src/Components/Header.jsx",
-                lineNumber: 46,
+                lineNumber: 47,
                 columnNumber: 7
             }, undefined),
             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("a", {
@@ -28561,7 +28563,7 @@ const Header = ()=>{
                 children: "Contact"
             }, void 0, false, {
                 fileName: "src/Components/Header.jsx",
-                lineNumber: 47,
+                lineNumber: 48,
                 columnNumber: 7
             }, undefined)
         ]
