@@ -28747,10 +28747,7 @@ var _reactDefault = parcelHelpers.interopDefault(_react);
  *
  * Need an image? Check out https://unsplash.com to download a photo you
  * freely use on your site.
- */ var _martinShreder5Xwaj9GaR0GUnsplashJpg = require("../images/martin-shreder-5Xwaj9gaR0g-unsplash.jpg");
-var _martinShreder5Xwaj9GaR0GUnsplashJpgDefault = parcelHelpers.interopDefault(_martinShreder5Xwaj9GaR0GUnsplashJpg);
-const imageAltText = "desktop with books and laptop";
-/**
+ */ /**
  * Project list
  *
  * An array of objects that will be used to display for your project
@@ -28834,7 +28831,7 @@ const Portfolio = ()=>{
                 children: "Portfolio"
             }, void 0, false, {
                 fileName: "src/Components/Portfolio.jsx",
-                lineNumber: 115,
+                lineNumber: 112,
                 columnNumber: 7
             }, undefined),
             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
@@ -28845,90 +28842,61 @@ const Portfolio = ()=>{
                     paddingTop: "3rem",
                     gap: "2rem"
                 },
-                children: [
-                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                        style: {
-                            flex: "1 1 400px",
-                            maxWidth: "100%",
-                            alignSelf: "center",
-                            padding: "0 2rem"
-                        },
-                        children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("img", {
-                            src: (0, _martinShreder5Xwaj9GaR0GUnsplashJpgDefault.default),
-                            style: {
-                                width: "100%",
-                                height: "auto",
-                                objectFit: "cover",
-                                borderRadius: "16px",
-                                boxShadow: "var(--shadow)"
-                            },
-                            alt: imageAltText
-                        }, void 0, false, {
-                            fileName: "src/Components/Portfolio.jsx",
-                            lineNumber: 128,
-                            columnNumber: 11
-                        }, undefined)
-                    }, void 0, false, {
-                        fileName: "src/Components/Portfolio.jsx",
-                        lineNumber: 125,
-                        columnNumber: 9
-                    }, undefined),
-                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                        className: "container",
-                        style: {
-                            flex: "2 1 600px"
-                        },
-                        children: projectList.map((project)=>/*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                                className: "box",
-                                children: [
-                                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("a", {
-                                        href: project.url,
-                                        target: "_blank",
-                                        rel: "noopener noreferrer",
-                                        children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("h3", {
-                                            style: {
-                                                flexBasis: "40px"
-                                            },
-                                            children: project.title
-                                        }, void 0, false, {
-                                            fileName: "src/Components/Portfolio.jsx",
-                                            lineNumber: 144,
-                                            columnNumber: 17
-                                        }, undefined)
+                children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                    className: "container",
+                    style: {
+                        flex: "2 1 600px"
+                    },
+                    children: projectList.map((project)=>/*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                            className: "box",
+                            children: [
+                                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("a", {
+                                    href: project.url,
+                                    target: "_blank",
+                                    rel: "noopener noreferrer",
+                                    children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("h3", {
+                                        style: {
+                                            flexBasis: "40px"
+                                        },
+                                        children: project.title
                                     }, void 0, false, {
                                         fileName: "src/Components/Portfolio.jsx",
-                                        lineNumber: 143,
-                                        columnNumber: 15
-                                    }, undefined),
-                                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
-                                        className: "small",
-                                        children: project.description
-                                    }, void 0, false, {
-                                        fileName: "src/Components/Portfolio.jsx",
-                                        lineNumber: 146,
-                                        columnNumber: 15
+                                        lineNumber: 126,
+                                        columnNumber: 17
                                     }, undefined)
-                                ]
-                            }, project.title, true, {
-                                fileName: "src/Components/Portfolio.jsx",
-                                lineNumber: 142,
-                                columnNumber: 13
-                            }, undefined))
-                    }, void 0, false, {
-                        fileName: "src/Components/Portfolio.jsx",
-                        lineNumber: 140,
-                        columnNumber: 9
-                    }, undefined)
-                ]
-            }, void 0, true, {
+                                }, void 0, false, {
+                                    fileName: "src/Components/Portfolio.jsx",
+                                    lineNumber: 125,
+                                    columnNumber: 15
+                                }, undefined),
+                                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
+                                    className: "small",
+                                    children: project.description
+                                }, void 0, false, {
+                                    fileName: "src/Components/Portfolio.jsx",
+                                    lineNumber: 128,
+                                    columnNumber: 15
+                                }, undefined)
+                            ]
+                        }, project.title, true, {
+                            fileName: "src/Components/Portfolio.jsx",
+                            lineNumber: 124,
+                            columnNumber: 13
+                        }, undefined))
+                }, void 0, false, {
+                    fileName: "src/Components/Portfolio.jsx",
+                    lineNumber: 122,
+                    columnNumber: 9
+                }, undefined)
+            }, void 0, false, {
                 fileName: "src/Components/Portfolio.jsx",
-                lineNumber: 116,
+                lineNumber: 113,
                 columnNumber: 7
             }, undefined)
         ]
     }, void 0, true, {
         fileName: "src/Components/Portfolio.jsx",
-        lineNumber: 114,
+        lineNumber: 111,
         columnNumber: 5
     }, undefined);
 };
@@ -28942,9 +28910,6 @@ $RefreshReg$(_c, "Portfolio");
   window.$RefreshReg$ = prevRefreshReg;
   window.$RefreshSig$ = prevRefreshSig;
 }
-},{"react/jsx-dev-runtime":"iTorj","react":"21dqq","../images/martin-shreder-5Xwaj9gaR0g-unsplash.jpg":"67yO7","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru"}],"67yO7":[function(require,module,exports) {
-module.exports = require("./helpers/bundle-url").getBundleURL("bLxZJ") + "martin-shreder-5Xwaj9gaR0g-unsplash.a54ef40b.jpg" + "?" + Date.now();
-
-},{"./helpers/bundle-url":"lgJ39"}],"lW6qc":[function() {},{}]},["1xC6H","ShInH","8lqZg"], "8lqZg", "parcelRequire6158")
+},{"react/jsx-dev-runtime":"iTorj","react":"21dqq","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru"}],"lW6qc":[function() {},{}]},["1xC6H","ShInH","8lqZg"], "8lqZg", "parcelRequire6158")
 
 //# sourceMappingURL=index.975ef6c8.js.map
