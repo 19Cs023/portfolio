@@ -19,9 +19,6 @@ import React from "react";
  * Need an image? Check out https://unsplash.com to download a photo you
  * freely use on your site.
  */
-import image from "../images/martin-shreder-5Xwaj9gaR0g-unsplash.jpg";
-
-const imageAltText = "desktop with books and laptop";
 
 /**
  * Project list
@@ -122,21 +119,6 @@ const Portfolio = () => {
           gap: "2rem",
         }}
       >
-        <div
-          style={{ flex: "1 1 400px", maxWidth: "100%", alignSelf: "center", padding: "0 2rem" }}
-        >
-          <img
-            src={image}
-            style={{
-              width: "100%",
-              height: "auto",
-              objectFit: "cover",
-              borderRadius: "16px",
-              boxShadow: "var(--shadow)",
-            }}
-            alt={imageAltText}
-          />
-        </div>
         <div className="container" style={{ flex: "2 1 600px" }}>
           {projectList.map((project) => (
             <div className="box" key={project.title}>
