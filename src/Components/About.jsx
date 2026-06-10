@@ -24,7 +24,7 @@ const imageAltText = "purple and blue abstract background";
  * Sort description that expands on your title on the Home component.
  */
 const description =
-  "I am a passionate Full Stack Developer specializing in the MERN stack (MongoDB, Express.js, React, and Node.js). I thrive on building scalable, user-friendly web applications and am constantly eager to learn and adopt new technologies to solve complex problems.";
+  "I am a passionate Full Stack Developer specializing in the MERN stack (MongoDB, Express.js, React, and Node.js). I thrive on building scalable, user-friendly web applications and am constantly eager to learn and adopt new technologies to solve complex problems. I am dedicated to creating seamless user experiences and am always looking for opportunities to collaborate on innovative projects that make a positive impact. With a strong foundation in both frontend and backend development, I am committed to delivering high-quality code and continuously improving my skills in the ever-evolving world of web development.i have worked with different technologies and frameworks, and i am always eager to learn and adopt new ones to solve complex problems. I am passionate about creating seamless user experiences and am always looking for opportunities to collaborate on innovative projects that make a positive impact. With a strong foundation in both frontend and backend development, I am committed to delivering high-quality code and continuously improving my skills in the ever-evolving world of web development.";
 
 /**
  * List of some of skills or technologies you work on, are learning,
@@ -55,7 +55,7 @@ const skillsList = [
  * about you on a professional level.
  */
 const detailOrQuote =
-  "I am passionate about solving problems that are in the way of my development. I am passionate about the things i love the most, so I will keep progrssing more and more in the feuture.";
+  "I am passionate about solving problems that are in the way of my development. so far I have solved 500+ challenges. I haave built 12+ applications from scratch. the applications i built using different technologies including react native. I am passionate about the things i love the most, so I will keep progrssing more and more in the feuture.";
 
 const About = () => {
   return (

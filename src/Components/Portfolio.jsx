@@ -51,17 +51,17 @@ const projectList = [
   {
     title: "expense tracker app with MERN stack 🚀",
     description:
-      "this app for the people that they want to track their expenses. In this app you can add your expenses and see your expenses in a chart.",
+      "this app for the people that they want to track their expenses. In this app you can add your expenses and see your expenses in a chart.this app has authentication and authorization features. you can also share your expenses with your friends and family.",
     url: "https://github.com/19Cs023/expense-tracker",
   },
   {
-    title: "blog app with MERN stack 🚀",
+    title: "online news and article app with MERN stack and python backend 🚀",
     description:
-      "this app for the people that they want to write their blogs. In this app you can write your blogs and see your blogs in a list.",
+      "this app for the people that they want to write their articles. In this app you can write your articles and see your articles in a list. this app has lot of features like adding, deleting, updating articles, commenting on articles, and more. likes on posts. text formatting and adding images and code snippets.",
     url: "https://github.com/19Cs023/tech-blogs",
   },
   {
-    title: "todo app with MERN stack 🚀",
+    title: "todo app with MERN stack and react native 🚀",
     description:
       "this app for the people that they want to manage their tasks. In this app you can add your tasks and see your tasks in a list.",
     url: "https://github.com/19Cs023/todo-app",
@@ -73,7 +73,7 @@ const projectList = [
     url: "https://github.com/19Cs023/summeriser-app",
   },
   {
-    title: "food delivery app with MERN stack 🚀",
+    title: "food delivery app with MERN stack , python, java backend with mySql database 🚀",
     description:
       "this app for the people that they want to order food from their favorite restaurants. In this app you can browse restaurants, order food, and track your order.",
     url: "https://github.com/19Cs023/food-delivery",
@@ -83,6 +83,29 @@ const projectList = [
     description:
       "this is a skeleton code for the MERN stack. It includes the basic structure for a MERN application.",
     url: "https://github.com/19Cs023/mern-skeliton",
+  },
+  {
+    title: "notes app with MERN stack 🚀",
+    description:
+      "this is a simple notes app built with the MERN stack.this app has lot of features like adding, deleting, updating notes text formatting and add imges, code snippets.",
+    url: "https://github.com/19Cs023/notesapp",
+  },
+  {
+    title: "github profile analyser 🚀",
+    description: "this is a simple github profile analyser built with the MERN stack.",
+    url: "https://github.com/19Cs023/github-profile-analyzer",
+  },
+  {
+    title: "online forum for solving all your problems 🚀",
+    description:
+      "this is a simple online forum built with the MERN stack. this app has lot of features like adding, deleting, updating posts, commenting on posts, and more. likes on answers and posts. suggesting similar questions. text formatting and adding images and code snippets.",
+    url: "https://github.com/19Cs023/online-forum",
+  },
+  {
+    title: "social media app with MERN stack 🚀",
+    description:
+      "this is a simple social media app built with the MERN stack. this app has lot of features like adding, deleting, updating posts, commenting on posts, and more. likes on posts. text formatting and adding images and code snippets.",
+    url: "https://github.com/19Cs023/socialapp",
   },
 ];
 
