@@ -99,10 +99,10 @@ const projectList = [
     url: "https://github.com/19Cs023/online-forum",
   },
   {
-    title: "social media app with MERN stack 🚀",
+    title: "real time chat app with MERN stack 🚀",
     description:
-      "this is a simple social media app built with the MERN stack. this app has lot of features like adding, deleting, updating posts, commenting on posts, and more. likes on posts. text formatting and adding images and code snippets.",
-    url: "https://github.com/19Cs023/socialapp",
+      "this is a simple real time chat app built using socket.io. this app was built with the MERN stack.",
+    url: "https://github.com/19Cs023/chat-app",
   },
 ];
 
